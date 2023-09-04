@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  background-color: #ececec;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  margin-right: 100px;
+}
+
+.main {
+  width: 50%;
+  height: 50%;
+  border: 8px solid #dddddd;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-left: 20%;
+  background-color: #fff;
+}
+
+.name {
+  display: flex;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 8px 16px;
+  color: black;
+}
+
+.name > span {
+  color: #bbb;
+}
+
+.name-input {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  flex-grow: 1;
+  margin: 8px 20px;
+  border-radius: 40px;
+  outline: none;
+  padding: 0 12px;
+  background-color: #fff;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  height: 600px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+.message-left,
+.message-right {
+  list-style: none;
+  padding: 8px 12px;
+  margin: 45px;
+  max-width: 250px;
+}
+
+.message-left {
+  border-radius: 20px 20px 20px 0px;
+  align-self: flex-start;
+  background-color: #fff;
+  box-shadow: -2px 2px 4px #ccc;
+}
+
+.message-right {
+  border-radius: 20px 20px 0px 20px;
+  align-self: flex-end;
+  background-color: black;
+  box-shadow: 2px 2px 4px #ccc;
+  color: #fff;
+}
+
+.message-left > p > span,
+.message-right > p > span {
+  display: block;
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 14px;
+  padding: 0px 16px 16px 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.message-form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.message-input {
+  flex-grow: 1;
+  height: 48px;
+  font-size: 16px;
+  margin-right: 2px;
+  border-radius: 40px;
+  outline: none;
+  padding: 0 12px;
+  background-color: #fff;
+}
+
+.send-button {
+  height: 48px;
+  font-size: 16px;
+  border-radius: 40px;
+  padding: 0px 20px;
+  outline: none;
+  background-color: black;
+  color: #fff;
+}
